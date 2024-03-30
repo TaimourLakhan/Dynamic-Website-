@@ -17,6 +17,12 @@
 
 }
 
+.bg-theme{
+    color: var(--bs-supporting-color);
+    background-image: none !important;
+    font-weight: 700;
+}
+
 /* some basic modifications on headings  */
 
 h1,h2,h3,h4,h5{
@@ -72,6 +78,15 @@ button,a{
     color: var(--secondary-color)!important;
 }
 
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem !important;
+}
+.common-title{
+    margin-bottom: 4.2rem;
+}
+
 /* vedio  */
 /* HERO SECTION START  */
 
@@ -79,7 +94,7 @@ button,a{
     /* max-width: 100%; */
     /* height: auto; */
     width: 30rem;
-    border-radius: 2rem;
+    border-radius: 2.5rem;
 }
 
 .bg-main{
@@ -90,7 +105,7 @@ button,a{
 .hero-section .container{
     display: grid;
     place-content: center;
-    height: inherit;
+    /* height: inherit; */
 }
 
 .bg-color{
@@ -121,4 +136,344 @@ button,a{
 .custom-shape-divider-bottom-1711560252 .shape-fill {
     fill: #FFFFFF;
 }
-COPY HTMLCOPY CSS
+
+
+/* services section  */
+
+.services-section{
+    padding: 6rem 0 3rem 0;
+}
+
+.icon-span{
+    width: 1.7rem;
+    height: 1.7rem;
+    background-color: var(--secondary-color);
+    color: var(--bs-main-color);
+}
+
+/* shadowing the card box  */
+.card-box:hover{
+    box-shadow: rgba(149,157 ,165, 0.2) 0 12px 24px;
+
+}
+
+
+/* digital product section  */
+
+.moreinfo-section{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 6rem 0;
+    background-image: linear-gradient(rgba(22,22,22,0.9),rgba(22,22,22,0.9)),url("images/UNTITLED.png");
+    
+}
+
+.moreinfo-section .img-section img{
+    width: 21rem;
+}
+
+
+
+.common-section{
+    padding-bottom: 9rem;
+}
+
+
+/* online mode modification  */
+
+#online-section{
+    padding-top: 3rem;
+}
+
+
+/* carousel section  */
+
+
+.carousel-inner .card{
+    background-color: #262631;
+    color: var(--bs-main-color);
+    transition: all 0.3s linear;
+}
+
+.carousel-inner .card p{
+    color: var(--bs-main-color);
+}
+.carousel-inner .card:hover{
+    background-color: var(--bs-main-color);
+    color: var(--bs-dark-color) !important;
+}
+.carousel-inner .card p:hover{
+    background-color: var(--bs-main-color);
+    color: var(--bs-dark-color) !important;
+    cursor: pointer;
+}
+.fa-star{
+    color: var(--bs-supporting-color);
+}
+
+.carousel-indicators{
+    bottom: -8%;
+}
+
+.carousel-indicators button{
+    width: 0.7rem !important;
+    height: 0.7rem !important;
+    background-color: var(--secondary-color) !important;
+}
+
+/* Contact us  */
+
+.contact-section{
+    position: relative;
+}
+
+.contact-section .common-title .common-heading{
+    padding-top:6rem ;
+}
+
+/* shape divider of contact us  */
+
+.custom-shape-divider-top-1711627795 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1711627795 svg {
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1711627795 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* FORM SECTION  */
+
+.form-section{
+    width: 50%;
+}
+
+
+
+/* footer section  */
+
+.main-footer-section{
+    padding: 0,0,4rem,0;
+    color: var(--bs-main-color);
+}
+
+.contact-div{
+    background-color: #222;
+}
+
+.icon-div{
+    width: 5rem;
+    height: 5rem;
+}
+
+.footer-end{
+    line-height: 1rem;
+    letter-spacing: 0.07rem;
+}
+
+.footer-end a{
+    font-size: 1rem;
+    color: var(--bs-main-color);
+    text-decoration: underline;
+}
+
+.footer-end .fw-bolder{
+    font-size: 1.5rem;
+}
+
+.footer-end i{
+    color: var(--bs-main-color);
+}
+
+
+/* MEDIA QUIRES FOR RESPONSIVENESS  */
+
+
+
+@media (max-width:1200px) {
+    .hero-vedio--section{
+        width: 27rem;
+        border-radius: 1.8rem;
+    
+    }
+    h1{
+        font-size: 2.4rem;
+    }
+
+    .moreinfo-section .img-section img{
+        width: 18rem;
+    }
+}
+    
+
+
+@media (max-width:998px) {
+
+    .navbar-toggler{
+        border-color: var(--bs-main-color);
+        background-color: var(--bs-main-color);
+    }
+    /* navbar  */
+
+    h1{
+        font-size: 2.2rem;
+    }
+   
+   
+
+    /* genral ends  */
+
+    /* hero section  */
+
+    .hero-section{
+        height: 100vh;
+    }
+
+    /* section.para-width{
+        width: auto;
+    } */
+
+    .hero-vedio--section{
+        width: 25rem;
+        border-radius: 1.8rem;
+    
+    }
+
+    /* services section  */
+
+    .services-section .common-heading{
+        font-size: 2.2rem;
+        letter-spacing: 0.01rem;
+        line-height: 2rem !important;
+
+    }
+
+
+    /* digital section  */
+
+    .moreinfo-section .img-section img{
+        width: 17rem;
+    }
+
+
+
+
+    
+    
+}
+
+@media (max-width:600px) {
+    .hero-vedio--section{
+        width: 20rem;
+        border-radius: 1.8rem;
+    
+    }
+    h1{
+        font-size: 2.1rem;
+    }
+    h2{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    /* hero section  */
+
+    .hero-vedio--section{
+        width: 25rem;
+        border-radius: 1.8rem;
+    
+    }
+
+
+    /* services section  */
+
+    .services-section .common-heading{
+        font-size: 2rem;
+        letter-spacing: 0.01rem;
+        line-height: 2rem !important;
+
+    }
+
+    
+
+    /* 4th section  */
+
+
+
+    .moreinfo-section .common-heading{
+        font-size: 2rem;
+        letter-spacing: 0.01rem;
+        line-height: 1.9rem !important;
+
+    }
+
+    p{
+        margin: 0;
+        font-weight: 300;
+        font-size: 1rem;
+        font-synthesis: none;
+        color:var(--bs-dark-color);
+        line-height: 1.4rem;
+        letter-spacing: 0.07rem;
+        text-rendering: optimizeLegibility;
+    
+    }
+
+    .moreinfo-section .img-section img{
+        width: 16rem;
+    }
+    
+}
+
+@media (max-width:400px) {
+
+    /* hero secction  */
+
+    .hero-vedio--section{
+        width: 16rem;
+        border-radius: 1.8rem;
+    
+    }
+
+    h1{
+        font-size: 1.9rem;
+    }
+
+
+    
+
+    
+
+    /* moreinfo section  */
+
+    .moreinfo-section .common-heading{
+        font-size: 1.9rem;
+        letter-spacing: 0.01rem;
+        line-height: 1.9rem !important;
+
+    }
+
+    .moreinfo-section .img-section img{
+        width: 14rem;
+    }
+
+    
+    
+    
+}
+
+
