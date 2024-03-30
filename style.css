@@ -404,7 +404,7 @@ button,a{
     .services-section .common-heading{
         font-size: 2rem;
         letter-spacing: 0.01rem;
-        line-height: 2rem !important;
+        line-height: 2.4rem !important;
 
     }
 
@@ -417,7 +417,7 @@ button,a{
     .moreinfo-section .common-heading{
         font-size: 2rem;
         letter-spacing: 0.01rem;
-        line-height: 1.9rem !important;
+        line-height: 2.2rem !important;
 
     }
 
@@ -435,6 +435,36 @@ button,a{
 
     .moreinfo-section .img-section img{
         width: 16rem;
+    }
+
+    /* business section  */
+
+    .business-section .common-heading{
+
+        font-size: 2rem;
+        letter-spacing: 0.01rem;
+        line-height: 2.4rem !important;
+
+    }
+
+    /* testominal section  */
+
+    #Testominal .common-heading{
+
+        font-size: 2.4rem;
+        letter-spacing: 0.01rem;
+        line-height: 3rem !important;
+
+    }
+
+    /* expert section  */
+
+    #Experts .common-heading{
+
+        font-size: 2.4rem;
+        letter-spacing: 0.01rem;
+        line-height: 2.9rem !important;
+
     }
     
 }
@@ -463,13 +493,44 @@ button,a{
     .moreinfo-section .common-heading{
         font-size: 1.9rem;
         letter-spacing: 0.01rem;
-        line-height: 1.9rem !important;
+        line-height: 2.3rem !important;
 
     }
 
     .moreinfo-section .img-section img{
         width: 14rem;
     }
+
+
+    /* business-section  */
+
+    .business-section .common-heading{
+
+        font-size: 1.9rem;
+        letter-spacing: 0.01rem;
+        line-height: 2.3rem !important;
+
+    }
+
+    /* testominal section  */
+
+    #Testominal .common-heading{
+
+        font-size: 2rem;
+        letter-spacing: 0.01rem;
+        line-height: 2.3rem !important;
+
+    }
+
+
+    #Experts .common-heading{
+
+        font-size: 2rem;
+        letter-spacing: 0.01rem;
+        line-height: 2.3rem !important;
+
+    }
+
 
     
     
